@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+ A00000000000000000000061 = {isa = PBXBuildFile; fileRef = A00000000000000000000060; };
+ A00000000000000000000053 = {isa = PBXBuildFile; fileRef = A00000000000000000000052; };
+ A00000000000000000000051 = {isa = PBXBuildFile; fileRef = A00000000000000000000050; };
+ A00000000000000000000049 = {isa = PBXBuildFile; fileRef = A00000000000000000000048; };
+ A00000000000000000000047 = {isa = PBXBuildFile; fileRef = A00000000000000000000046; };
+ A00000000000000000000045 = {isa = PBXBuildFile; fileRef = A00000000000000000000044; };
+ A00000000000000000000043 = {isa = PBXBuildFile; fileRef = A00000000000000000000042; };
+ A00000000000000000000041 = {isa = PBXBuildFile; fileRef = A00000000000000000000040; };
+ A00000000000000000000038 = {isa = PBXBuildFile; fileRef = A00000000000000000000037; };
+        A00000000000000000000071 /* Donation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000070 /* Donation.swift */; };
+        A00000000000000000000073 /* PomodoroActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000072 /* PomodoroActivityAttributes.swift */; };
+        A00000000000000000000075 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000074 /* SplashView.swift */; };
+        A00000000000000000000077 /* ForestDecorations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000076 /* ForestDecorations.swift */; };
+        A00000000000000000000079 /* DecorationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000078 /* DecorationStore.swift */; };
+        D00000000000000000000005 /* OrmanWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00000000000000000000002 /* OrmanWidgetBundle.swift */; };
+        D00000000000000000000006 /* PomodoroLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00000000000000000000003 /* PomodoroLiveActivity.swift */; };
+        D00000000000000000000007 /* PomodoroActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000072 /* PomodoroActivityAttributes.swift */; };
+        D00000000000000000000017 /* OrmanWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D00000000000000000000001 /* OrmanWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeaderOnCopy, ); }; };
+        A00000000000000000000036 /* Pomodoro.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000035 /* Pomodoro.swift */; };
+        A00000000000000000000031 /* ForestLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000030 /* ForestLife.swift */; };
+        A00000000000000000000033 /* ForestAmbience.wav in Resources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000032 /* ForestAmbience.wav */; };
+        A00000000000000000000022 /* TaskReminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000023 /* TaskReminders.swift */; };
+        A00000000000000000000020 /* ForestAtmosphere.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000021 /* ForestAtmosphere.swift */; };
+		A00000000000000000000004 /* OrmanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000001 /* OrmanApp.swift */; };
+		A00000000000000000000005 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000002 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+ A00000000000000000000060 = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+ A00000000000000000000052 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForestJournal.swift; sourceTree = "<group>"; };
+ A00000000000000000000050 = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ForestRabbit.wav; sourceTree = "<group>"; };
+ A00000000000000000000048 = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ForestDeer.wav; sourceTree = "<group>"; };
+ A00000000000000000000046 = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ForestRiver.wav; sourceTree = "<group>"; };
+ A00000000000000000000044 = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ForestNight.wav; sourceTree = "<group>"; };
+ A00000000000000000000042 = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ForestBirds.wav; sourceTree = "<group>"; };
+ A00000000000000000000040 = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ForestWind.wav; sourceTree = "<group>"; };
+ A00000000000000000000037 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForestTerrain.swift; sourceTree = "<group>"; };
+        A00000000000000000000070 /* Donation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Donation.swift; sourceTree = "<group>"; };
+        A00000000000000000000072 /* PomodoroActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroActivityAttributes.swift; sourceTree = "<group>"; };
+        A00000000000000000000074 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+        A00000000000000000000076 /* ForestDecorations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForestDecorations.swift; sourceTree = "<group>"; };
+        A00000000000000000000078 /* DecorationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecorationStore.swift; sourceTree = "<group>"; };
+        D00000000000000000000001 /* OrmanWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OrmanWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+        D00000000000000000000002 /* OrmanWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrmanWidgetBundle.swift; sourceTree = "<group>"; };
+        D00000000000000000000003 /* PomodoroLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroLiveActivity.swift; sourceTree = "<group>"; };
+        D00000000000000000000004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+        A00000000000000000000035 /* Pomodoro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pomodoro.swift; sourceTree = "<group>"; };
+        A00000000000000000000030 /* ForestLife.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForestLife.swift; sourceTree = "<group>"; };
+        A00000000000000000000032 /* ForestAmbience.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ForestAmbience.wav; sourceTree = "<group>"; };
+        A00000000000000000000023 /* TaskReminders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskReminders.swift; sourceTree = "<group>"; };
+        A00000000000000000000021 /* ForestAtmosphere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForestAtmosphere.swift; sourceTree = "<group>"; };
+		A00000000000000000000001 /* OrmanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrmanApp.swift; sourceTree = "<group>"; };
+		A00000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A00000000000000000000003 /* Orman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Orman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		A00000000000000000000007 /* Orman */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000001 /* OrmanApp.swift */,
+				A00000000000000000000002 /* ContentView.swift */,
+                A00000000000000000000021 /* ForestAtmosphere.swift */,
+                A00000000000000000000023 /* TaskReminders.swift */,
+                A00000000000000000000030 /* ForestLife.swift */,
+                A00000000000000000000035 /* Pomodoro.swift */,
+                A00000000000000000000070 /* Donation.swift */,
+                A00000000000000000000072 /* PomodoroActivityAttributes.swift */,
+                A00000000000000000000074 /* SplashView.swift */,
+                A00000000000000000000076 /* ForestDecorations.swift */,
+                A00000000000000000000078 /* DecorationStore.swift */,
+ A00000000000000000000037 /* ForestTerrain.swift */,
+                A00000000000000000000032 /* ForestAmbience.wav */,
+ A00000000000000000000060,
+ A00000000000000000000052,
+ A00000000000000000000050,
+ A00000000000000000000048,
+ A00000000000000000000046,
+ A00000000000000000000044,
+ A00000000000000000000042,
+ A00000000000000000000040,
+			);
+			path = Orman;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000003 /* Orman.app */,
+				D00000000000000000000001 /* OrmanWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000009 = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000007 /* Orman */,
+				D00000000000000000000008 /* OrmanWidget */,
+				A00000000000000000000008 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D00000000000000000000008 /* OrmanWidget */ = {
+			isa = PBXGroup;
+			children = (
+				D00000000000000000000002 /* OrmanWidgetBundle.swift */,
+				D00000000000000000000003 /* PomodoroLiveActivity.swift */,
+				D00000000000000000000004 /* Info.plist */,
+			);
+			path = OrmanWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00000000000000000000012 /* Orman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000000000000000000011 /* Build configuration list for PBXNativeTarget "Orman" */;
+			buildPhases = (
+				A00000000000000000000006 /* Sources */,
+                A00000000000000000000034 /* Resources */,
+                D00000000000000000000018 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D00000000000000000000016 /* PBXTargetDependency */,
+			);
+			name = Orman;
+			productName = Orman;
+			productReference = A00000000000000000000003 /* Orman.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D00000000000000000000009 /* OrmanWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D00000000000000000000014 /* Build configuration list for PBXNativeTarget "OrmanWidgetExtension" */;
+			buildPhases = (
+				D00000000000000000000010 /* Sources */,
+				D00000000000000000000011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrmanWidgetExtension;
+			productName = OrmanWidgetExtension;
+			productReference = D00000000000000000000001 /* OrmanWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000000000000000000013 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = A00000000000000000000010 /* Build configuration list for PBXProject "Orman" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = tr;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				tr,
+				en,
+				Base,
+			);
+			mainGroup = A00000000000000000000009;
+			productRefGroup = A00000000000000000000008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00000000000000000000012 /* Orman */,
+				D00000000000000000000009 /* OrmanWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+        A00000000000000000000034 /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (A00000000000000000000061,A00000000000000000000051,A00000000000000000000049,A00000000000000000000041,A00000000000000000000043,A00000000000000000000045,A00000000000000000000047,);
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+		D00000000000000000000011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00000000000000000000006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000004 /* OrmanApp.swift in Sources */,
+				A00000000000000000000005 /* ContentView.swift in Sources */,
+                A00000000000000000000020 /* ForestAtmosphere.swift in Sources */,
+                A00000000000000000000022 /* TaskReminders.swift in Sources */,
+                A00000000000000000000031 /* ForestLife.swift in Sources */,
+                A00000000000000000000036 /* Pomodoro.swift in Sources */,
+                A00000000000000000000071 /* Donation.swift in Sources */,
+                A00000000000000000000073 /* PomodoroActivityAttributes.swift in Sources */,
+                A00000000000000000000075 /* SplashView.swift in Sources */,
+                A00000000000000000000077 /* ForestDecorations.swift in Sources */,
+                A00000000000000000000079 /* DecorationStore.swift in Sources */,
+ A00000000000000000000038 /* ForestTerrain.swift in Sources */,
+ A00000000000000000000053,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00000000000000000000010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00000000000000000000005 /* OrmanWidgetBundle.swift in Sources */,
+				D00000000000000000000006 /* PomodoroLiveActivity.swift in Sources */,
+				D00000000000000000000007 /* PomodoroActivityAttributes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D00000000000000000000018 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D00000000000000000000017 /* OrmanWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXContainerItemProxy section */
+		D00000000000000000000015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00000000000000000000013 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D00000000000000000000009;
+			remoteInfo = OrmanWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		D00000000000000000000016 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D00000000000000000000009 /* OrmanWidgetExtension */;
+			targetProxy = D00000000000000000000015 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B00000000000000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B00000000000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C00000000000000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VB97U9B46N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Silva Todo App";
+				INFOPLIST_KEY_CFBundleName = "Silva Todo";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+                INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Ormandaki hava durumunu bulunduğun yere göre göstermek için yaklaşık konumun Open-Meteo hava servisine gönderilir.";
+                INFOPLIST_FILE = Orman/Info.plist;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arda.Orman;
+                SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ORMAN_APP";
+				PRODUCT_NAME = "Silva Todo";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C00000000000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VB97U9B46N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Silva Todo App";
+				INFOPLIST_KEY_CFBundleName = "Silva Todo";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+                INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Ormandaki hava durumunu bulunduğun yere göre göstermek için yaklaşık konumun Open-Meteo hava servisine gönderilir.";
+                INFOPLIST_FILE = Orman/Info.plist;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arda.Orman;
+                SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ORMAN_APP";
+				PRODUCT_NAME = "Silva Todo";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D00000000000000000000012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VB97U9B46N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OrmanWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Silva Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arda.Orman.OrmanWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D00000000000000000000013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VB97U9B46N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OrmanWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Silva Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arda.Orman.OrmanWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00000000000000000000010 /* Build configuration list for PBXProject "Orman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00000000000000000000000 /* Debug */,
+				B00000000000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00000000000000000000011 /* Build configuration list for PBXNativeTarget "Orman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00000000000000000000000 /* Debug */,
+				C00000000000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D00000000000000000000014 /* Build configuration list for PBXNativeTarget "OrmanWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00000000000000000000012 /* Debug */,
+				D00000000000000000000013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00000000000000000000013 /* Project object */;
+}

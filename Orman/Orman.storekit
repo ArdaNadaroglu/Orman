@@ -1,0 +1,119 @@
+{
+  "identifier": "9C7A2C1E-6C63-4B5F-9C1A-2B7B7C3E5A11",
+  "nonRenewingSubscriptions": [],
+  "products": [
+    {
+      "displayPrice": "50.00",
+      "familyShareable": false,
+      "internalID": "1F3D2A44-7A9C-4E2B-8C11-9B2E4C6A7D02",
+      "localizations": [
+        {
+          "description": "Silva'yı desteklemek için gönüllü bir bağış",
+          "displayName": "50 ₺ Bağış",
+          "locale": "tr_TR"
+        },
+        {
+          "description": "A voluntary donation to support Silva",
+          "displayName": "₺50 Donation",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.arda.orman.donate50",
+      "referenceName": "Donate 50 TL",
+      "type": "Consumable"
+    },
+    {
+      "displayPrice": "75.00",
+      "familyShareable": false,
+      "internalID": "2E4F3B55-8B0D-4F3C-9D22-0C3F5D7B8E13",
+      "localizations": [
+        {
+          "description": "Ormanına ışıltılı, akan sulu bir çeşme ekle",
+          "displayName": "Dilek Çeşmesi",
+          "locale": "tr_TR"
+        },
+        {
+          "description": "Add a glittering, flowing fountain to your forest",
+          "displayName": "Wishing Fountain",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.arda.orman.decor.fountain",
+      "referenceName": "Wishing Fountain",
+      "type": "NonConsumable"
+    },
+    {
+      "displayPrice": "60.00",
+      "familyShareable": false,
+      "internalID": "3F5A4C66-9C1E-4A4D-8E33-1D4F6E8C9F24",
+      "localizations": [
+        {
+          "description": "Ormanına bronz çanlı küçük bir çan kulesi ekle",
+          "displayName": "Orman Çanı",
+          "locale": "tr_TR"
+        },
+        {
+          "description": "Add a small bell tower with a bronze bell to your forest",
+          "displayName": "Forest Bell",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.arda.orman.decor.bell",
+      "referenceName": "Forest Bell",
+      "type": "NonConsumable"
+    },
+    {
+      "displayPrice": "99.99",
+      "familyShareable": false,
+      "internalID": "49EE0779-C47E-451E-B078-B672D994391F",
+      "localizations": [
+        {
+          "description": "Dönen ahşap çarkı ve sıcak pencereleriyle dere kenarında bir su değirmeni",
+          "displayName": "Su Değirmeni",
+          "locale": "tr_TR"
+        },
+        {
+          "description": "A riverside watermill with a turning wooden wheel and warm windows",
+          "displayName": "Watermill",
+          "locale": "en_US"
+        },
+        {
+          "description": "Eine Wassermühle mit drehendem Holzrad und warmen Fenstern",
+          "displayName": "Wassermühle",
+          "locale": "de_DE"
+        }
+      ],
+      "productID": "com.arda.orman.decor.watermill",
+      "referenceName": "Watermill",
+      "type": "NonConsumable"
+    },
+    {
+      "displayPrice": "60.00",
+      "familyShareable": false,
+      "internalID": "745B04C3-14A1-43A7-A757-90806548A180",
+      "localizations": [
+        {
+          "description": "Çiçekler arasında yavaşça sallanan ahşap salıncak",
+          "displayName": "Orman Salıncağı",
+          "locale": "tr_TR"
+        },
+        {
+          "description": "A gently swaying wooden swing among flowers",
+          "displayName": "Forest Swing",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.arda.orman.decor.swing",
+      "referenceName": "Forest Swing",
+      "type": "NonConsumable"
+    }
+  ],
+  "settings": {
+    "_locale": "tr_TR"
+  },
+  "subscriptionGroups": [],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}
